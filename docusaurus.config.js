@@ -295,11 +295,11 @@ const colorMode = {
 };
 
 /**
- * @type {Config["themeConfig"]["metadatas"]}
+ * @type {Config["themeConfig"]["metadata"]}
  * @see https://docusaurus.io/docs/api/themes/configuration#meta-image
- * @see https://docusaurus.io/docs/api/themes/configuration#metadatas
+ * @see https://docusaurus.io/docs/api/themes/configuration#metadata
  */
-const metadatas = [
+const metadata = [
     { name: "twitter:site", content: "@feature_sliced" },
     { name: "twitter:card", content: "summary_large_image" },
     // NOTE: uncomment if need
@@ -339,7 +339,7 @@ module.exports = {
     projectName: "documentation", // Usually your repo name.
     themeConfig: {
         image: "img/preview.png",
-        metadatas,
+        metadata,
         colorMode,
         navbar,
         footer,
